@@ -5,8 +5,8 @@ So Run this command `./vendor/bin/sail up` it will install laravel and container
 
 1. Containerize app: `./vendor/bin/sail up`
 
-2. Seeding providers: `./vendor/bin/sail providers:seed`
+2. Seeding providers: `./vendor/bin/sail artisan providers:seed`
 
 3. Test using this end point `/api/v1/users?statusCode=authorised`
 
-4. Run unit tests using `./vendor/bin/sail test`
+4. Run unit tests using `./vendor/bin/sail artisan test`
